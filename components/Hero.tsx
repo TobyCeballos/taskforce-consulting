@@ -16,7 +16,7 @@ const Hero = () => {
           </p>
           <div>
           <Button size="lg" asChild className="animate-fade-in-left hover:bg-yellow-600 transition-transform transform hover:scale-105">
-            <a href="#contacto">Contáctanos</a>
+            <a href="/contact">Contáctanos</a>
           </Button></div>
         </div>
       </div>
