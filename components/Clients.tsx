@@ -48,7 +48,7 @@ const Clients = () => {
   };
 
   return (
-    <section id="clientes" className="py-20 bg-gray-50 dark:bg-zinc-950">
+    <section id="clientes" className="py-32  bg-white dark:bg-zinc-950">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-12 text-center text-gray-900 dark:text-white">
           Lo que dicen<br className="lg:hidden"/> nuestros clientes

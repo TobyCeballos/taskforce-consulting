@@ -20,7 +20,7 @@ const Contact = () => {
   };
 
   return (
-    <section id="contacto" className="py-20 hidden">
+    <section id="contacto" className="pt-32 h-[70vh]">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-12 text-center text-gray-900 dark:text-white">
           Contáctanos
