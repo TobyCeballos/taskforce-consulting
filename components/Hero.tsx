@@ -4,19 +4,20 @@ const Hero = () => {
   return (
     <section
       style={{ backgroundImage: "url('./assets/bg.jpg')" }}
-      className="bg-cover bg-center bg-gray-50 dark:bg-gray-800"
+      className="bg-cover bg-fixed bg-gray-50 dark:bg-gray-800 relative"
     >
-      <div className="flex items-center py-72 w-full h-[80vh] mx-auto px-4 bg-black/50 backdrop-brightness-75">
-        <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white dark:text-white">
-            Expertos en Consultoría Financiera
+      <div className="flex items-center w-full h-[80vh] px-8 bg-black/40">
+        <div className="container text-center md:text-left ">
+          <h1 className="text-5xl md:text-7xl font-bold mb-4 text-white dark:text-white leading-tight animate-fade-in-left">
+            Expertos en <br/>Consultoría Financiera
           </h1>
-          <p className="text-xl mb-8 text-white dark:text-gray-300">
+          <p className="text-xl mb-6 text-gray-200 animate-fade-in-left">
             Optimizamos tus finanzas para impulsar el crecimiento de tu negocio. Ofrecemos servicios de asesoría financiera, planificación fiscal y estrategias de inversión personalizadas.
           </p>
-          <Button size="lg" asChild>
+          <div>
+          <Button size="lg" asChild className="animate-fade-in-left hover:bg-yellow-600 transition-transform transform hover:scale-105">
             <a href="#contacto">Contáctanos</a>
-          </Button>
+          </Button></div>
         </div>
       </div>
     </section>

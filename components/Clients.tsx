@@ -51,7 +51,7 @@ const Clients = () => {
     <section id="clientes" className="py-20 bg-gray-50 dark:bg-gray-800">
       <div className="container mx-auto px-4">
         <h2 className="text-3xl font-bold mb-12 text-center text-gray-900 dark:text-white">
-          Lo que dicen nuestros clientes
+          Lo que dicen<br className="lg:hidden"/> nuestros clientes
         </h2>
 
         <div className="flex justify-center">
@@ -62,7 +62,7 @@ const Clients = () => {
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
               transition={{ duration: 0.8 }}
-              className="w-2/3"
+              className="w-full md:w-2/3"
             >
               <Card>
                 <CardContent className="pt-6">

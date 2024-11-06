@@ -60,10 +60,8 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className={`p-4 min-h-[25vh] rounded-lg shadow-lg ${
-                service.bgColor
-              } flex flex-col justify-center space-x-4 
-                ${service.spanX === 2 ? "col-span-2" : "col-span-3"}
+              className={`p-4 min-h-[25vh] rounded-lg shadow-lg flex flex-col justify-center space-x-4 
+                ${service.spanX === 2 ? "col-span-2" : "col-span-2 md:col-span-3"}
                 ${service.spanY === 2 ? "row-span-2" : "row-span-1"}
                 `}
             >
