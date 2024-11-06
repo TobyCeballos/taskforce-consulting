@@ -8,7 +8,7 @@ import Footer from '@/components/Footer';
 const inter = Inter({ subsets: ['latin'] });
 
 export const metadata: Metadata = {
-  title: 'Taskforce - Consultora Financiera',
+  title: 'Task Force | Consultora Financiera',
   description:
     'Servicios de asesoría financiera, planificación fiscal, inversiones y más.',
 };
@@ -22,7 +22,7 @@ export default function RootLayout({
     <html lang="es">
     <head>
       {/* Enlace al favicon */}
-      <link rel="icon" href="/assets/logo-light.png " />
+      <link rel="icon" href="/assets/circle-logo.png " />
     </head>
       <body className={inter.className}>
         <ThemeProvider attribute="class" defaultTheme="light" enableSystem>

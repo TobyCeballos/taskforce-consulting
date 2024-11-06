@@ -9,19 +9,19 @@ const testimonials = [
   {
     name: "María González",
     company: "Tech Innovators S.L.",
-    testimonial: "Taskforce ha sido fundamental en la optimización de nuestras finanzas. Su asesoramiento nos ha permitido crecer de manera sostenible.",
+    testimonial: "Task Force ha sido fundamental en la optimización de nuestras finanzas. Su asesoramiento nos ha permitido crecer de manera sostenible.",
     avatar: "MG"
   },
   {
     name: "Carlos Rodríguez",
     company: "Eco Solutions",
-    testimonial: "Gracias a la planificación fiscal de Taskforce, hemos logrado importantes ahorros y una mejor gestión de nuestros recursos.",
+    testimonial: "Gracias a la planificación fiscal de Task Force, hemos logrado importantes ahorros y una mejor gestión de nuestros recursos.",
     avatar: "CR"
   },
   {
     name: "Laura Martínez",
     company: "Global Trade Co.",
-    testimonial: "El equipo de Taskforce nos ha guiado expertamente en nuestras inversiones, logrando excelentes rendimientos incluso en tiempos difíciles.",
+    testimonial: "El equipo de Task Force nos ha guiado expertamente en nuestras inversiones, logrando excelentes rendimientos incluso en tiempos difíciles.",
     avatar: "LM"
   }
 ];

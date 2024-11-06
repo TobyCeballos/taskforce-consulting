@@ -7,20 +7,20 @@ import {
 
 const faqs = [
   {
-    question: "¿Qué servicios ofrece Taskforce?",
-    answer: "Taskforce ofrece una amplia gama de servicios financieros, incluyendo asesoría financiera, planificación fiscal, gestión de inversiones, servicios de contabilidad y administración general para empresas y particulares."
+    question: "¿Qué servicios ofrece Task Force?",
+    answer: "Task Force ofrece una amplia gama de servicios financieros, incluyendo asesoría financiera, planificación fiscal, gestión de inversiones, servicios de contabilidad y administración general para empresas y particulares."
   },
   {
     question: "¿Cómo puedo programar una consulta?",
     answer: "Puede programar una consulta llenando el formulario de contacto en nuestra página web, llamándonos directamente o enviándonos un correo electrónico. Nos pondremos en contacto con usted para acordar una fecha y hora conveniente."
   },
   {
-    question: "¿Taskforce trabaja con empresas de todos los tamaños?",
+    question: "¿Task Force trabaja con empresas de todos los tamaños?",
     answer: "Sí, trabajamos con empresas de todos los tamaños, desde startups y pequeñas empresas hasta grandes corporaciones. Adaptamos nuestros servicios a las necesidades específicas de cada cliente."
   },
   {
-    question: "¿Qué hace que Taskforce sea diferente de otras consultoras financieras?",
-    answer: "Taskforce se distingue por su enfoque personalizado, su equipo de expertos altamente cualificados y su compromiso con la innovación en servicios financieros. Nos centramos en desarrollar estrategias a medida que se alinean con los objetivos específicos de cada cliente."
+    question: "¿Qué hace que Task Force sea diferente de otras consultoras financieras?",
+    answer: "Task Force se distingue por su enfoque personalizado, su equipo de expertos altamente cualificados y su compromiso con la innovación en servicios financieros. Nos centramos en desarrollar estrategias a medida que se alinean con los objetivos específicos de cada cliente."
   },
   {
     question: "¿Ofrecen servicios de planificación financiera personal?",

@@ -15,8 +15,8 @@ const Header = () => {
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           {/* Logo with img tag */}
-          <img src="/assets/logo.png" alt="Taskforce Logo" className="w-10 h-10 mr-2" />
-          <span className="text-2xl font-bold text-gray-800 dark:text-white">Taskforce</span>
+          <img src="/assets/circle-logo.png" alt="Task Force Logo" className="w-12 h-12 mr-4" />
+          <span className="text-2xl font-bold text-gray-800 dark:text-white">Task Force</span>
         </div>
         <nav className="hidden md:flex space-x-4">
           <Link href="/" className="text-gray-600 dark:text-gray-300 hover:text-gray-800 dark:hover:text-white">Inicio</Link>
