@@ -60,7 +60,7 @@ const Services = () => {
           {services.map((service, index) => (
             <div
               key={index}
-              className={`p-4 min-h-[25vh] rounded-lg shadow-lg flex flex-col justify-center space-x-4 
+              className={`p-4 dark:border-2 min-h-[25vh] rounded-lg shadow-lg flex flex-col justify-center space-x-4 
                 ${service.spanX === 2 ? "col-span-2" : "col-span-2 md:col-span-3"}
                 ${service.spanY === 2 ? "row-span-2" : "row-span-1"}
                 `}
@@ -69,12 +69,12 @@ const Services = () => {
                 <div className="min-w-[3rem] min-h-[3rem] mr-3 bg-yellow-700 text-white rounded-full flex items-center justify-center">
                   <service.icon size={24} />
                 </div>
-                <h3 className="text-xl font-semibold text-gray-900">
+                <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
                   {service.title}
                 </h3>
               </div>
               <div>
-                <p className="text-gray-700">{service.description}</p>
+                <p className="text-gray-700 dark:text-white">{service.description}</p>
               </div>
             </div>
           ))}

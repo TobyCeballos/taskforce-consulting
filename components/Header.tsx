@@ -31,27 +31,27 @@ const Header = () => {
   return (
     <header
       className={`fixed z-50 w-full py-4 transition-all duration-300 ${
-        isScrolled ? 'bg-white text-black shadow-lg' : 'bg-transparent text-white'
+        isScrolled ? 'bg-white dark:bg-gray-900 dark:text-white text-black shadow-lg' : 'bg-transparent text-white'
       }`}
     >
       <div className="container mx-auto px-4 flex justify-between items-center">
         <div className="flex items-center">
           <img src="/assets/circle-logo.png" alt="Task Force Logo" className="w-12 h-12 mr-4" />
-          <span className={`text-2xl font-bold ${isScrolled ? 'text-black' : 'text-white'}`}>
+          <span className={`text-2xl font-bold ${isScrolled ? 'text-black dark:text-white' : 'text-white'}`}>
             Task Force
           </span>
         </div>
         <nav className="hidden md:flex space-x-4">
-          <Link href="/" className={`hover:text-gray-800 ${isScrolled ? 'text-black' : 'text-white'}`}>
+          <Link href="/" className={`hover:text-gray-800 ${isScrolled ? 'text-black dark:text-white' : 'text-white'}`}>
             Inicio
           </Link>
-          <Link href="#servicios" className={`hover:text-gray-800 ${isScrolled ? 'text-black' : 'text-white'}`}>
+          <Link href="#servicios" className={`hover:text-gray-800 ${isScrolled ? 'text-black dark:text-white' : 'text-white'}`}>
             Servicios
           </Link>
-          <Link href="#clientes" className={`hover:text-gray-800 ${isScrolled ? 'text-black' : 'text-white'}`}>
+          <Link href="#clientes" className={`hover:text-gray-800 ${isScrolled ? 'text-black dark:text-white' : 'text-white'}`}>
             Clientes
           </Link>
-          <Link href="#contacto" className={`hover:text-gray-800 ${isScrolled ? 'text-black' : 'text-white'}`}>
+          <Link href="#contacto" className={`hover:text-gray-800 ${isScrolled ? 'text-black dark:text-white' : 'text-white'}`}>
             Contacto
           </Link>
         </nav>
@@ -78,7 +78,7 @@ const Header = () => {
         </div>
       </div>
       {isMenuOpen && (
-        <div className={`md:hidden mt-2 py-2  text-black bg-white`}>
+        <div className={`md:hidden mt-2 py-2  text-black bg-white dark:bg-black`}>
           <Link href="/" className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700">Inicio</Link>
           <Link href="#nosotros" className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700">Nosotros</Link>
           <Link href="#servicios" className="block px-4 py-2 hover:bg-gray-200 dark:hover:bg-gray-700">Servicios</Link>
