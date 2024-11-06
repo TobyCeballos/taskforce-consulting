@@ -63,6 +63,29 @@
   }
 }
 
+/* Scrollbar general */
+::-webkit-scrollbar {
+  width: 4px; /* Ancho de la barra */
+}
+
+/* Background de la scrollbar */
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Fondo del track */
+  border-radius: 10px;
+}
+
+/* Thumb (la parte que se mueve) */
+::-webkit-scrollbar-thumb {
+  background: #b18b0e; /* Color del thumb */
+  border-radius: 10px;
+}
+
+/* Hover en el thumb */
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Color cuando se pasa el mouse */
+}
+
+
 @layer base {
   * {
     @apply border-border;
